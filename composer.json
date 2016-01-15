@@ -1,0 +1,19 @@
+{
+    "name": "roach/cmproject-fork",
+    "authors": [
+        {
+            "name": "Kostyantyn Kedrya",
+            "email": "kedryakv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kedrya/composer-test-package": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {"ForkMyspace\\": "src/"}
+    }
+
+
+}
